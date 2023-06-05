@@ -2,12 +2,12 @@ import React from 'react';
 import { Route, Routes } from 'react-router';
 import Layout from './components/Layout';
 import { AuthContextComponent } from './AuthContext';
-import Home from './Pages/Home';
-import Signup from './Pages/Signup';
-import Login from './Pages/Login';
+import Home from './pages/Home';
+import Signup from './pages/Signup';
+import Login from './pages/Login';
 
-import ViewAll from './Pages/ViewAll';
-import Logout from './Pages/Logout';
+import ViewAll from './pages/ViewAll';
+import Logout from './pages/Logout';
 
 const App = () => {
     return (
